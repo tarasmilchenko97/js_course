@@ -8,9 +8,11 @@ let c = myAge % 100;
 
 if (myAge < 0){
     console.log('Возраст не может быть отрицательным')
-} else if (b > 1 && b < 5){
+}else if(c > 10 && c < 15){
+    console.log(a + ' лет');
+}else if (b > 1 && b < 5){
     console.log(a + ' года');
-} else if(myAge ===11 || c === 11){
+}else if(myAge === 11 || c === 11 ){
     console.log(a + ' лет');
 }else if (b === 1){
     console.log(a + ' год');
@@ -53,7 +55,7 @@ for (let i =0; i < arr1Filtered.length; i+=1) {
 
 // min
 
-let min =0;
+let min = Infinity;
 for (let i =0; i < arr1.length; i+=1) {
     if (min > arr1[i]){
         min = arr1[i];
@@ -103,10 +105,10 @@ for (let i = 0; i < arr1.length; i += 1) {
 let g = arr1.length - p;
 
 let obj = {max:max,
-    min:min,
-    avg:avg,
-    negative:negative,
-    ['not a number']:g
+            min:min,
+            avg:avg,
+            negative:negative,
+            ['not a number']:g
 };
 
 console.log(obj);
