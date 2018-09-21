@@ -18,6 +18,9 @@ if (myAge < 0){
     console.log(a + ' лет');
 }
 
+
+// max, min, avg, negative, not a number
+
 let arr1 = [2,
     24,
     'taras',
@@ -31,8 +34,34 @@ let arr1 = [2,
 
 let arr1Filtered = [];
 
-// avg
 
+// max
+
+for (let i = 0;i<arr1.length;i+=1){
+    if (arr1[i]>0) {
+        arr1Filtered[arr1Filtered.length] = arr1[i];
+    }
+}
+
+let max =0;
+for (let i =0; i < arr1Filtered.length; i+=1) {
+    if (max < arr1Filtered[i]){
+        max = arr1Filtered[i];
+    }
+}
+
+
+// min
+
+let min =0;
+for (let i =0; i < arr1.length; i+=1) {
+    if (min > arr1[i]){
+        min = arr1[i];
+    }
+}
+
+
+// avg
 
 for (let i = 0;i<arr1.length;i+=1){
     if (arr1[i]>0) {
@@ -41,8 +70,43 @@ for (let i = 0;i<arr1.length;i+=1){
 }
 
 let sum = 0;
+
 for (let i = 0; i<arr1Filtered.length; i+=1){
     sum += arr1Filtered[i];
 }
-console.log('sum = ' + sum/arr1Filtered.length);
+let avg = sum/arr1Filtered.length;
 
+
+// negative
+
+let arr1Negative = [];
+
+for (let i = 0;i<arr1.length;i+=1){
+    if (arr1[i]<0) {
+        arr1Negative[arr1Negative.length] = arr1[i];
+    }
+}
+
+let negative = arr1Negative.length;
+
+// not a number
+
+let p = 0;
+
+for (let i = 0; i < arr1.length; i += 1) {
+    if (typeof arr1[i] === typeof 1){
+        sum +=arr1[i];
+        p+=1;
+    }
+}
+
+let g = arr1.length - p;
+
+let obj = {max:max,
+    min:min,
+    avg:avg,
+    negative:negative,
+    ['not a number']:g
+};
+
+console.log(obj);
