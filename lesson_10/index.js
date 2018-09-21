@@ -12,8 +12,6 @@ if (myAge < 0){
     console.log(a + ' лет');
 }else if (b > 1 && b < 5){
     console.log(a + ' года');
-}else if(myAge === 11 || c === 11 ){
-    console.log(a + ' лет');
 }else if (b === 1){
     console.log(a + ' год');
 }else {
