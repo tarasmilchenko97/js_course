@@ -1,54 +1,30 @@
 'use strict';
 
-const arr =[
-    [1, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0],
-    [0, 0, 0, null, 0, 0],
-    [0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0],
-];
+function removeKeys1(obj,arr) {
+    for (let i = 0; i < arr.length; i+=1){
+        delete obj[arr[i]];
+    }
+    return obj;
+}
 
-let n = 0;
-let x = 0;
-let y = 0;
+function removeKeys2(obj, arr2) {
+    const obj2 = {};
+    const arr3 = Object.keys(obj);
 
-function calcNulls(row) {
-    // вернет кол-во null в row
+    for (let i = 0; i < arr3.length; i += 1) {
+        let bool = false;
 
-    for (const y in arr) {
-        for(const x in arr[y]){
-            if (arr[y][x] != n){
-                n = arr[y][x];
-
+        for (let j = 0; j < arr2.length; j += 1) {
+            if (arr3[i] === arr2[j]) {
+                bool = true;
+                break;
             }
         }
+        if (!bool) {
+            obj2[arr3[i]] = obj[arr3[i]];
+        }
     }
+    return obj2;
 }
 
-console.log(n);
-
-//function main (data) {
-//  вернет масив с количествами null-ов в каждом из подмасивов
-
-
-
-
-
-
-/*
-function toObject(arr = ['a', 'c', 'g']) {
-    let obj = {};
-    for (let i = 0; i < arr.length; ++i)
-        obj[i] = arr[i];
-}
-    for (let i = 0; i )
-
-
-
-
-
-
-
-// console.log(toObject());
-*/
+const absDiff = a => b => Math.abs(a - b);
