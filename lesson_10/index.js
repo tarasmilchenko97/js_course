@@ -1,6 +1,6 @@
 'use strict';
 
-const myAge = 20;
+const myAge = 22;
 
 let a = 'Мой возраст ' + myAge;
 let b = myAge % 10;
