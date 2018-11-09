@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7064f0da-46f7-4033-9d8d-e3d5dc5bd0ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson_11/.idea/lesson_11.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson_11/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_13/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_13/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_14/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson_14/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_10/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson_11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson_11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_11/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson_11/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_11/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +55,10 @@
     <session id="1731317475">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -77,7 +77,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="528">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
@@ -111,7 +111,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
+    <option name="x" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
@@ -121,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -133,6 +132,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,16 +170,18 @@
       <workItem from="1539026173214" duration="32000" />
       <workItem from="1539026963400" duration="180000" />
       <workItem from="1539027192796" duration="622000" />
+      <workItem from="1539086715663" duration="17000" />
+      <workItem from="1539108307470" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15700000" />
+    <option name="totallyTimeSpent" value="15727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
+    <frame x="-7" y="0" width="782" height="831" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1800554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19113573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state relative-caret-position="528">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
